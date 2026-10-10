@@ -158,6 +158,7 @@
               console.log("Signed in as:", user.email);
               document.getElementById("login-box").style.display = "none";
               document.getElementById("site-content").style.display = "block";
+              loadBoardMessages();
             } else {
               console.log("Not signed in");
               document.getElementById("login-box").style.display = "block";
